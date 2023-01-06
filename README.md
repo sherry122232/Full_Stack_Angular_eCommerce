@@ -8,12 +8,12 @@
 </p>
 
 ### Introduction. 
-• Develop a Full Stack E-commerce application with Angular front-end and Spring Boot back-end.  
-• Supporting search by keywords/classification, log in/out, membership page, orderhistory, checkout with stripe API, get email receipt...  
-• Implemented routing management to process membership, shopping cart, login/logout, checkout. 
-• Build a Spring Boot back-end using REST APIs and MySQL database.  
-• Process credit card payments and send email receipts after a succesful payment via Stripe API.
-• Add login/logout features, enhance security via JWT, OAuth2, OpenID Connect, SSL/TLS.  
+* Develop a Full Stack E-commerce application with Angular front-end and Spring Boot back-end.  
+* Supporting search by keywords/classification, log in/out, membership page, orderhistory, checkout with stripe API, get email receipt...  
+* Implemented routing management to process membership, shopping cart, login/logout, checkout. 
+* Build a Spring Boot back-end using REST APIs and MySQL database.  
+* Process credit card payments and send email receipts after a succesful payment via Stripe API.
+* Add login/logout features, enhance security via JWT, OAuth2, OpenID Connect, SSL/TLS.  
 
 
 ### Release 1.0  
