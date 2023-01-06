@@ -1,24 +1,28 @@
 /*
-    Copy from styles.css -> .au-btn-submit
+    Copy from styles.css -> .au-btn.submit
     Rename as .security-btn
-    Change border to 10px
+    Change it to 10px
 */
-.security-btn {
+
+.security-btn{
     position:relative;
-    right:0;
+    right:40;
     min-width:95px;
+    min-height:46px;
     color:#fff;
-    border:10px solid #205b8d;
+    border:1px solid #0d3659;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     border-radius:43px;
-    background:#205b8d
+    background:#0d3659
 }
+
 
 /*
     Copy from styles.css -> .form-header
     Rename as .login-status-header
 */
+
 .login-status-header{
     display:-webkit-box;
     display:-webkit-flex;
@@ -30,9 +34,10 @@
 /*
     Copy from styles.css -> .au-input
     Rename as .login-status-user-info
-    - remove 'solid', 'font-size', 'color'
 */
-.login-status-user-info {
+
+
+.login-status-user-info{
     line-height:43px;
     border:1px;
     padding:0 17px;
