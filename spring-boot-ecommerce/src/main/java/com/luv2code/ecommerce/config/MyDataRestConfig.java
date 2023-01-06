@@ -1,10 +1,8 @@
 package com.luv2code.ecommerce.config;
 
-import com.luv2code.ecommerce.entity.Country;
-import com.luv2code.ecommerce.entity.Product;
-import com.luv2code.ecommerce.entity.ProductCategory;
-import com.luv2code.ecommerce.entity.State;
+import com.luv2code.ecommerce.entity.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.core.mapping.ExposureConfigurer;
@@ -14,6 +12,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 import javax.persistence.EntityManager;
 import javax.persistence.metamodel.EntityType;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -21,6 +20,8 @@ import java.util.Set;
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
+    @Value("${allowed.origins}")
+    private String[] theAllowedOrigins;
     private EntityManager entityManager;
 
     // autowired jpa entity manager
@@ -48,9 +49,15 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         disableHttpMethod(config.getExposureConfiguration()
                 .forDomainType(State.class), theUnsupportedActions);
 
+        disableHttpMethod(config.getExposureConfiguration()
+                .forDomainType(Order.class), theUnsupportedActions);
+
 
         // call an internal helper method
         exposeIds(config);
+
+        // configure cors mapping
+        cors.addMapping(config.getBasePath()+"/**").allowedOrigins(theAllowedOrigins);
     }
 
     private static void disableHttpMethod(ExposureConfigurer config, HttpMethod[] theUnsupportedActions) {
