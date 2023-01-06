@@ -35,3 +35,7 @@
 ### Release 3.0
 * Enhance security - handle secure communication by https instead of http.
 * Credit card payment processing via Stripe API.
+
+### To start
+1. Run IntelliJ IDEA (backend
+2. In VS code, npm start (frontend)
