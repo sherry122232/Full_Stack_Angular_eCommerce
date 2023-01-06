@@ -111,7 +111,7 @@ a,a:hover{
 }
 
 .page-container{
-    background:#e5e5e5;
+    background:#e5eef3;
     padding-left:200px
 }
 
@@ -134,7 +134,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
  */
 
 .header-desktop{
-    background:#0da8e4;
+    background:#629ea4;
     -webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
     -moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
     box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
@@ -226,7 +226,7 @@ input.au-input.au-input-xl{
     line-height:43px;
     border:1px solid #e5e5e5;
     font-size:14px;
-    color:#666;
+    color:rgb(102, 102, 102);
     padding:0 17px;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
@@ -250,11 +250,11 @@ input.au-input.au-input-xl{
 }
 
 .total{
-    background:#205b8d;
+    background:#0d3659;
     line-height:43px;
     color:#fff;
     border-radius:30px;
-    border:1px solid #0da8e4;
+    border:1px solid #0d3659;
     float:left;
     margin-top:7px;
     padding-left:17px
@@ -283,11 +283,11 @@ input.au-input.au-input-xl{
     right:0;
     min-width:95px;
     color:#fff;
-    border:1px solid #205b8d;
+    border:1px solid #0d3659;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     border-radius:43px;
-    background:#205b8d
+    background:#0d3659
 }
 
 .au-btn-submit:hover{
@@ -972,7 +972,7 @@ footer ul li{
         font-size:22px;
         float:left;
         margin-top:16px;
-        color:#205b8d;
+        color:#0d3659;
         margin-left:15px
     }
     .footer-pagination{
@@ -991,11 +991,11 @@ footer ul li{
         right:10px;
         min-width:85px;
         color:#fff;
-        border:1px solid #205b8d;
+        border:1px solid #0d3659;
         -webkit-border-radius:3px;
         -moz-border-radius:3px;
         border-radius:0;
-        background:#205b8d
+        background:#0d3659
     }
     input.au-input.au-input-xl{
         border-radius:0!important;
@@ -1024,11 +1024,11 @@ footer ul li{
         margin-left:6px
     }
     .total{
-        background:#205b8d;
+        background:#0d3659;
         line-height:30px;
         color:#fff;
         border-radius:30px;
-        border:1px solid #205b8d;
+        border:1px solid #0d3659;
         float:left;
         margin-top:9px;
         padding-left:12px
