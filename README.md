@@ -1,4 +1,4 @@
-# Full_Stack_Angular_eCommerce
+# Mini-Amazon-Web-Application
 
 ![15C71719-D24F-46A9-BF32-A30260153F5E](https://user-images.githubusercontent.com/45084681/210931455-2c36480c-8ca8-4741-87f8-e5a489ebf20f.gif)
 
@@ -8,7 +8,7 @@
 </p>
 
 ### Introduction. 
-* Develop a Full Stack E-commerce application with Angular front-end and Spring Boot back-end.  
+* Develop a Full Stack Mini Amazon Web application with Angular front-end and Spring Boot back-end.  
 * Supporting search by keywords/classification, log in/out, membership page, orderhistory, checkout with stripe API, get email receipt...  
 * Implemented routing management to process membership, shopping cart, login/logout, checkout. 
 * Build a Spring Boot back-end using REST APIs and MySQL database.  
